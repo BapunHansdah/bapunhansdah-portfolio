@@ -32,10 +32,13 @@ const projects = [
 ]
 
 const webDesigns = [
+  { name: "Shotzspot.com", url: "https://shotzspot.com", type: "Influencer Marketing" },
   { name: "Stravion Capital", url: "https://stravioncapital.com", type: "Real Estate Startup" },
   { name: "Veeraj.in", url: "https://veeraj.in", type: "Personal Brand" },
   { name: "Veeraj Shah", url: "https://veerajshah.in", type: "Portfolio" },
   { name: "Veeraj Group", url: "https://veerajgroup.com", type: "Business" },
+  { name: "Aarinston Creatives", url: "https://aarinstoncreatives.com", type: "Construction" },
+  { name: "Interview Insider", url: "https://interviewinsider.com", type: "Startup" },
 ]
 
 export function ProjectsSection() {
