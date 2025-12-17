@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react"
 
 const projects = [
   {
-    title:"cmdrix",
+    title:"Cmdrix",
     description: "A simple, open-source AI CLI tool for Windows.",
     link: "https://bapunhansdah.github.io/cmdrix/",
     tags: ["Open Source", "AI", "C#", "Windows", "CLI"],
