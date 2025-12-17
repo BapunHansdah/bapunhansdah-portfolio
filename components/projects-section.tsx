@@ -5,6 +5,19 @@ import { ArrowUpRight } from "lucide-react"
 
 const projects = [
   {
+    title:"cmdrix",
+    description: "A simple, open-source AI CLI tool for Windows.",
+    link: "https://bapunhansdah.github.io/cmdrix/",
+    tags: ["Open Source", "AI", "C#", "Windows", "CLI"],
+  },
+  {
+    title: "Hard Mode",
+    description: "A website blocker that prevents users from accessing certain websites.",
+    link: "https://bapunhansdah.github.io/hardmode/",
+    tags: ["Open Source", "C#", "Windows", "Desktop App"],
+    featured: true,
+  },
+  {
     title: "Excalimotion",
     description: "Turn Excalidraw into a motion graphics app. Because static diagrams are boring.",
     link: "https://excalimotion.com",
