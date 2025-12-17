@@ -51,6 +51,7 @@ const webDesigns = [
   { name: "Veeraj Shah", url: "https://veerajshah.in", type: "Portfolio" },
   { name: "Veeraj Group", url: "https://veerajgroup.com", type: "Business" },
   { name: "Aarinston Creatives", url: "https://aarinstoncreatives.com", type: "Construction" },
+  { name: "Aarinston", url: "https://www.aarinston.com/", type: "Chemical Company" },
   { name: "Interview Insider", url: "https://interviewinsider.com", type: "Startup" },
 ]
 
