@@ -5,6 +5,13 @@ import { ArrowUpRight } from "lucide-react"
 
 const projects = [
   {
+    title: "Tasvera",
+    description: "Reframe horizontal videos into vertical or square formats with manual subject tracking.",
+    link: "https://tasvera.com",
+    tags: ["Next.js", "React", "Tailwind CSS", "Video Editing"],
+    featured: true,
+  },
+  {
     title:"Cmdrix",
     description: "A simple, open-source AI CLI tool for Windows.",
     link: "https://bapunhansdah.github.io/cmdrix/",
