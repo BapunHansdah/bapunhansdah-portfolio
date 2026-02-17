@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, PodcastIcon } from 'lucide-react';
 import { BIO, EXPERIENCE, PORTFOLIO_OWNER, PORTFOLIO_ROLE, PROJECTS, SKILLS, SOCIALS } from './constants';
 
 const NotionBlock: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className = "" }) => (
@@ -54,17 +54,15 @@ const App: React.FC = () => {
         
         {/* Profile Icon */}
         <div className="text-6xl mb-6 select-none cursor-default hover:scale-105 transition-transform origin-left inline-block">
-          🧑‍💻
+          <img className="w-32 rounded"src='/user.jpg'/>
         </div>
 
         {/* Header Title */}
         <h1 className="text-4xl font-bold mb-2 text-black tracking-tight">{PORTFOLIO_OWNER}</h1>
-        <div className="flex items-center gap-2 text-gray-500 font-mono text-sm mb-8">
-          <span>{PORTFOLIO_ROLE}</span>
-          <span>•</span>
-          <span>Based in Bangalore</span>
+        <div className="text-gray-500 font-mono text-sm mb-8">
+          <div>{PORTFOLIO_ROLE}</div>
+          <div className="text-xs flex items-center gap-.5 mt-1">Based in Bangalore • +918328821185</div>
         </div>
-
         {/* Navigation Tabs (Notion style) */}
         <div className="flex flex-wrap gap-1 mb-8 border-b border-gray-100 pb-2">
           <PageLink 
