@@ -67,8 +67,8 @@ const App: React.FC = () => {
         <div className="flex flex-wrap gap-1 mb-8 border-b border-gray-100 pb-2">
           <PageLink 
             icon="🏠" 
-            title="Home" 
-            isActive={activeSection === 'About'} 
+            title="About" 
+            isActive={activeSection === 'home'} 
             onClick={() => setActiveSection('home')} 
           />
           <PageLink 
