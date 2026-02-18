@@ -2,10 +2,14 @@ import { Experience, Project, SocialLink } from './types';
 export const PORTFOLIO_OWNER = "Bapun Hansdah";
 export const PORTFOLIO_ROLE = "Full Stack Developer & Technical Leader";
 export const BIO = `
-Full Stack Developer and Technical Leader with over 3 years of experience building scalable SaaS platforms, browser automation tools, and real-time applications using React.js, Next.js, and Node.js. 
+I build systems.
 
-Adept at integrating AI/LLM capabilities into user-facing products, driving performance optimization, and delivering high-impact B2B tools. Proven ability to lead agile teams, optimize infrastructure (AWS/Azure), and streamline software delivery pipelines.
+Full-stack engineer with 3+ years of experience shipping SaaS platforms, automation tools, and AI-enabled applications. I work across frontend, backend, and cloud infrastructure — owning architecture through deployment.
+
+Drawn to early-stage products where I can take ideas from 0→1 and scale them thoughtfully.
 `;
+
+
 
 export const SKILLS = [
   "JavaScript (ES6+)", "TypeScript", "Python", "Go",
