@@ -68,7 +68,7 @@ const App: React.FC = () => {
           <PageLink 
             icon="🏠" 
             title="Home" 
-            isActive={activeSection === 'home'} 
+            isActive={activeSection === 'About'} 
             onClick={() => setActiveSection('home')} 
           />
           <PageLink 
