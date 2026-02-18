@@ -4,7 +4,7 @@ export const PORTFOLIO_ROLE = "Full Stack Developer & Technical Leader";
 export const BIO = `
 I build systems.
 
-Full-stack engineer with 3+ years of experience shipping SaaS platforms, automation tools, and AI-enabled applications. I work across frontend, backend, and cloud infrastructure — owning architecture through deployment.
+Full-stack engineer with 3+ years of experience shipping SaaS platforms, automation tools, and AI-enabled applications. I work across frontend, backend, and cloud infrastructure, owning architecture through deployment.
 
 Drawn to early-stage products where I can take ideas from 0→1 and scale them thoughtfully.
 `;
