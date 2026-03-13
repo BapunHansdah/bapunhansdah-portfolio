@@ -112,7 +112,7 @@ export const PROJECTS: Project[] = [
  {
     id: "p6",
     title: "Google Business Scraper",
-    description: "Built with React + Browser automation to scrape business details from Google Maps.",
+    description: "Built with React + Browser automation to scrape business details from Google business profiles.",
     tags: ["React", "Automation"],
     link: "https://chromewebstore.google.com/detail/hashtag-scraper/lkjglfpchhgefmooomhbdipbppabdpii",
     icon: "🦀"
