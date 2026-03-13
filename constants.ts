@@ -87,6 +87,14 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "p3",
+    title: "Singleclaw",
+    description: "A self-improving AI agent in ~1000 lines of TypeScript",
+    tags: ["AI", "Automation"],
+    link: "https://github.com/BapunHansdah/singleclaw",
+    icon: "🤖"
+  },
+  {
+    id: "p4",
     title: "PptxGenJS Contributor",
     description: "Contributed an open-source enhancement to the PptxGenJS Node.js library by adding support for slide animations.",
     tags: ["Open Source", "Node.js"],
@@ -94,13 +102,21 @@ export const PROJECTS: Project[] = [
     icon: "📦"
   },
   {
-    id: "p4",
+    id: "p5",
     title: "Hashtag Scraper",
     description: "Built with React + Instagram APIs to automate influencer discovery by extracting user details from hashtag searches.",
     tags: ["React", "Automation"],
-    link: "#",
-    icon: "#️⃣"
-  }
+    link: "https://chromewebstore.google.com/detail/hashtag-scraper/lkjglfpchhgefmooomhbdipbppabdpii",
+    icon: "🦀"
+  },
+ {
+    id: "p6",
+    title: "Google Business Scraper",
+    description: "Built with React + Browser automation to scrape business details from Google Maps.",
+    tags: ["React", "Automation"],
+    link: "https://chromewebstore.google.com/detail/hashtag-scraper/lkjglfpchhgefmooomhbdipbppabdpii",
+    icon: "🦀"
+  },
 ];
 
 export const SOCIALS: SocialLink[] = [
