@@ -84,7 +84,7 @@ export const PROJECTS: Project[] = [
     description:
       "A minimal tool to reframe horizontal videos into vertical or square formats with manual subject tracking.",
     tags: ["Video Processing", "Tool"],
-    link: "#",
+    link: "https://tasvera.com",
     icon: "📹",
   },
   {
@@ -93,7 +93,7 @@ export const PROJECTS: Project[] = [
     description:
       "A motion graphics platform for creating and rendering animated content and presentations with a user-friendly interface.",
     tags: ["Graphics", "Animation"],
-    link: "#",
+    link: "https://excalimotion.com",
     icon: "🎬",
   },
   {
