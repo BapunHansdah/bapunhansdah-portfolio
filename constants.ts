@@ -78,15 +78,15 @@ export const EXPERIENCE: Experience[] = [
 ];
 
 export const PROJECTS: Project[] = [
-  // {
-  //   id: "p1",
-  //   title: "Tasvera",
-  //   description:
-  //     "A minimal tool to reframe horizontal videos into vertical or square formats with manual subject tracking.",
-  //   tags: ["Video Processing", "Tool"],
-  //   link: "https://tasvera.com",
-  //   icon: "📹",
-  // },
+  {
+    id: "p1",
+    title: "Agma360",
+    description:
+      "AGMA360 is an AI marketing team that handles branding, ad campaigns, SEO articles, social media, and content — all from one brief.",
+    tags: ["AI Agent", "Marketing", "Automation","SaaS"],
+    link: "https://agma360.com",
+    icon: "🚀",
+  },
   {
     id: "p2",
     title: "Excalimotion",
